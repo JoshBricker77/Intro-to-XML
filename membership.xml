@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="membership.css"?>
+<!-- 
+    MSN Baseball Fan Club Blog Entries
+
+    Filename: membership.xml
+    Author:   Joshua Bricker
+    Date:     1/18/2024
+-->
+
+<membership xmlns="http://example.com/msnmembball/membership">
+   <title>MSN Baseball Fan Club</title>
+   <subtitle>Blog Entries for Members</subtitle>
+   <member>
+    <memberName>
+        <firstName>Johnny</firstName>
+        <lastName>BeGood</lastName>
+    </memberName>
+    <joinedDate>1962/2/1</joinedDate>
+    <favoritePlayer>Ryan Braun</favoritePlayer>
+    <comments>
+    <blogEntry>
+        <datePosted>2011/10/10</datePosted>
+        <![CDATA[Did you see the game on 10/7?  Braun is crazy awesome!!]]>
+    </blogEntry>
+    </comments>
+    <comments>
+    <blogEntry>
+        <datePosted>2010/3/10</datePosted>
+        <![CDATA[ I knew when my career was over.  In 1965 my baseball card came out with no picture.]]>
+    </blogEntry>
+    </comments>
+    </member>
+
+   <member>
+    <memberName>
+         <firstName>Bob</firstName>
+         <lastName>Uecker</lastName>
+    </memberName>
+     <joinedDate>2001/8/21</joinedDate>
+     <favoritePlayer>J Scanlon</favoritePlayer>
+     <comments>
+     <blogEntry>
+        <datePosted>2003/7/1</datePosted>
+        <![CDATA[ The .247 avg doesn't do him justice.  He is more like a .300 player,
+        but I think maybe more game time is needed.  For playing IF, he does a
+        great job.  Really quick on the feet.  Hope he returns next year.  Go Mallards!]]>
+    </blogEntry>
+    </comments>
+    </member>
+
+    <member>
+    <memberName>
+        <firstName>Tom</firstName>
+        <lastName>Churchill</lastName>
+    </memberName>
+    <joinedDate>2010/4/21</joinedDate>
+    <favoritePlayer>Willie Mays</favoritePlayer>
+    <comments>
+    <blogEntry>
+        <datePosted>2011/12/19</datePosted>
+        <![CDATA[ I know Willie Mays isn't playing anymore, but as he said 'I think I 
+        was the best baseball player I ever saw.'.  Enough Said.]]>
+    </blogEntry>
+    </comments>
+    <comments>
+    <blogEntry>
+        <datePosted>2010/4/21</datePosted>
+        <![CDATA[ I just found this blog.  I probably won't be posting much as I am too 
+        busy going to the games to post about them.  Seriously though... I cannot
+        wait for next season.  My team is already out of the running, so I wait.]]>
+    </blogEntry>
+    </comments>
+    </member>
+   
+   
+   
+
+</membership>
