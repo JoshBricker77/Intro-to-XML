@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="weekendFun.css"?>
+<!--
+   New Perspectives on XML
+   Tutorial 1
+   Case Problem 3
+   
+   Weekend Best Recipes
+
+   Filename: weekendFun.xml
+   Author: Patricia Dean
+   Date:   3/1/2016
+-->
+
+<recipeBook xmlns="http://example.com/wkdbestrecipes/recipe">
+   <title>Weekend Fun Snacks</title>
+   <notes>
+	<![CDATA[Need an idea for a fun weekend snack?  Try one of our simple recipes!]]>
+	</notes>
+   <recipe>
+      <name>Fruit Saber</name>
+      <description>Ahoy matey! Fighting over fruit.</description>
+      <ingredients>
+         <ingredient>
+      	    <measurement>1</measurement>
+      	    <ingredientname>pear</ingredientname>
+      	 </ingredient>
+      	 <ingredient>
+      	    <measurement>1</measurement>
+      	    <ingredientName>banana</ingredientName>
+      	 </ingredient>
+      	 <ingredient>
+      	    <measurement>1</measurement>
+      	    <ingredientName>strawberry</ingredientName>
+      	 </ingredient>
+      	 <ingredient>
+      	    <measurement>1</measurement>
+      	    <ingredientName>orange</ingredientName>
+      	 </ingredient>
+      	 <ingredient>
+      	    <measurement>4</measurement>
+      	    <ingredientName>wooden skewers</ingredientName>
+      	 </ingredient>
+      </ingredients>
+      <directions>
+         <direction>Cut all fruit in large chunks.</direction>
+         <direction>Skewer the chunks, alternating between the different types of fruit.</direction>
+      </directions>
+   </recipe>
+   <recipe>
+      <name>Peanut Butter Drops</name>
+      <description>Great for peanut butter lovers!</description>
+      <ingredients>
+      	 <ingredient>
+      	    <measurement>&#189; cup</measurement>
+      	    <ingredientName>honey</ingredientName>
+      	 </ingredient>
+      	 <ingredient>
+      	    <measurement>&#189; cup</measurement>
+      	    <ingredientName>peanut butter</ingredientName>
+      	 </ingredient>
+      	 <ingredient>
+      	    <measurement>1 cup</measurement>
+      	    <ingredientName>nonfat dry milk</ingredientName>
+      	 </ingredient>
+      	 <ingredient>
+      	    <measurement>1 cup</measurement>
+      	    <ingredientName>Rice Krispies cereal</ingredientName>
+      	 </ingredient>
+      	 <ingredient>
+      	    <measurement></measurement>
+      	    <ingredientName>wax paper</ingredientName>
+      	 </ingredient>
+      </ingredients>
+      <directions>
+         <direction>Mix all ingredients and then roll the mixture into 1&quot; balls.</direction>
+         <direction>Lay the balls on waxed paper.</direction>
+         <direction>Refrigerate until set.</direction>
+      </directions>
+   </recipe>
+   <recipe>
+    <name>Leaf Piles</name>
+    <description>Jump into a corn flake leaf pile. Nice snack for fall.</description>
+    <ingredients>
+        <ingredient>
+            <measurement>6 cups</measurement>
+            <ingredientName>corn flakes</ingredientName>
+        </ingredient>
+        <ingredient>
+            <measurement>1 cup</measurement>
+            <ingredientName>Karo syrup</ingredientName>
+        </ingredient>
+        <ingredient>
+            <measurement>1 cup</measurement>
+            <ingredientName>peanut butter</ingredientName>
+        </ingredient>
+        <ingredient>
+            <measurement></measurement>
+            <ingredientName>wax paper</ingredientName>
+        </ingredient>
+    </ingredients>
+    <directions>
+        <direction>In a microwave, melt the Karo and peanut butter together.</direction>
+        <direction>Pour over the corn flakes and place them in 2" piles on wax paper.</direction>
+        <direction>Let them cool and dry.</direction>
+    </directions>
+	</recipe>
+</recipeBook>
