@@ -1,0 +1,77 @@
+/*
+   New Perspectives on XML
+   Tutorial 1
+   Case Problem 3
+   
+   Filename: weekendFun.css
+   Author: 
+   Date:
+   
+   This file contains styles used in the weekendBest.xml file.
+*/
+recipeBook {
+   margin: 0px 10px;
+} 			
+title {
+   display: block;
+   color: blue;
+   width: 600px; 
+   font-size: 26pt;
+   font-family: cursive;
+   padding: 5px;
+}
+notes {
+   display: block; 
+   width: 680px; 
+   color: red; 
+   padding: 10px; 
+   font-size: 10pt; 
+   border: 2px solid pink; 
+   margin-bottom: 10px;
+}
+recipe {
+   display: block;
+   width: 680px; 
+   font-size: 10pt;
+   border: 1px solid black; 
+   padding: 5px; 
+   margin-top: 10px;
+}
+name {
+   color: green; 
+   margin-left: 60px;
+   font-family: Times New Roman, Times, Serif;
+   font-size: 14pt;
+} 
+description {
+   display: block;
+   margin-left: 90px;
+}
+directions {
+   display: block; 
+   margin-top: 15px; 
+   background-color: olive;
+}
+direction {
+   display: list-item; 
+   font-size: 9pt; 
+   color: black;
+   list-style-type: square;
+   margin-left: 35px;
+   font-family: Arial, Helvetica, Sans-serif;
+}
+ingredients {
+   display: block; 
+   margin-top: 10px;
+}
+ingredient {
+   display: block; 
+   font-style: italic;
+}
+measurement	{
+   display: inline-block; 
+   font-weight: bold;
+}
+ingredientName {
+   display: inline-block;
+}
