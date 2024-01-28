@@ -1,0 +1,71 @@
+/*
+   New Perspectives on XML
+   Tutorial 1
+   Case Problem 4
+   
+   Filename: rycheBooksPrint.css
+
+   This file contains styles for the rycheBooks.xml file when it is printed.
+*/
+books {
+   display: block;
+}
+book {
+   display: block; 
+   width: 680px;  
+   font-size: 10pt;
+   border: 3px solid black; 
+   padding: 5px; 
+}	
+title {
+   display: inline-block;
+   color: black;
+   width: 600px; 
+   font-size: 12pt;
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   padding-left: 50px;
+   padding-top: 15px;
+   padding-bottom: 10px;
+}
+type, title, author, publisher, sellPrice {
+   text-indent: 1em;
+}
+author {
+   display: inline-block;
+   padding-left: 50px;
+   font-family: Arial, Helvetica, sans-serif; 
+   font-weight: bold; 
+}	
+firstName, middleName, lastName {
+   display: inline; 
+   margin-right: 0.5em;
+}
+type {
+   display: inline-block; 
+   font-style: italic; 
+   padding-left: 15px;
+}
+publisher {
+   display: inline-block; 
+   padding-left: 15px;
+}
+sellPrice {
+   display: inline-block;
+   color: black;
+   font-size: large;
+   font-weight: bolder;
+   padding-left: 15px;
+}
+categories {
+   display: block; 
+   background-color: black;
+}
+category {
+   display: inline-block;
+   margin-left: 45px;
+   list-style-type: disc;
+   font-family: sans-serif;
+   font-size: 9pt; 
+   padding-left: 1px;
+   color: black;
+}

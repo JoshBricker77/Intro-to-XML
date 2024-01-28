@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="rychebooks.css" media="screen"?>
+<?xml-stylesheet type="text/css" href="rychebooksPrint.css" media="print"?>
+<!-- 
+Filename: rychebooks.xml
+Author: Josh Bricker
+Date: 01/28/2024
+Purpose: XML document for Ryche Books inventory
+-->
+<books xmlns="http://www.example.com/books">
+    <book ISBN="I0141382902">
+        <title>The Titan's Curse</title>
+        <author>
+            <firstName>Rick</firstName>
+            <lastName>Riordan</lastName>
+        </author>
+        <type>Softcover</type>
+        <publisher>Penguin Books</publisher>
+        <sellPrice>7.95</sellPrice>
+        <categories>
+            <category>children</category>
+            <category>teens</category>
+            <category>top-seller</category>
+            <category>fiction</category>
+            <category>adventure</category>
+        </categories>
+    </book>
+    <book ISBN="I0545060397">
+        <title>The Maze of Bones</title>
+        <author>
+            <firstName>Rick</firstName>
+            <lastName>Riordan</lastName>
+        </author>
+        <type>Hardcover</type>
+        <publisher>Scholastic</publisher>
+        <sellPrice>10.95</sellPrice>
+        <categories>
+            <category>children</category>
+            <category>teens</category>
+            <category>top-seller</category>
+            <category>fiction</category>
+            <category>adventure</category>
+        </categories>
+    </book>
+    <book ISBN="I0439306183">
+        <title>100 Words Kids Need to Read by 3rd Grade</title>
+        <author>
+            <firstName>Scholastic</firstName>
+        </author>
+        <type>Softcover</type>
+        <publisher>Scholastic</publisher>
+        <sellPrice>5.95</sellPrice>
+        <categories>
+            <category>children</category>
+            <category>non-fiction</category>
+            <category>educational</category>
+        </categories>
+    </book>
+    <book ISBN="I9780545010221">
+        <title>Harry Potter and the Deathly Hallows (Harry Potter #7)</title>
+        <author>
+            <firstName>J.K.</firstName>
+            <lastName>Rowling</lastName>
+        </author>
+        <type>Hardcover</type>
+        <publisher>Bloomsbury Publishing</publisher>
+        <sellPrice>12.95</sellPrice>
+        <categories>
+            <category>children</category>
+            <category>teens</category>
+            <category>adult</category>
+            <category>top-seller</category>
+            <category>fiction</category>
+            <category>adventure</category>
+        </categories>
+    </book>
+</books>
